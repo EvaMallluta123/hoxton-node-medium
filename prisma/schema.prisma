@@ -16,6 +16,7 @@ model Post{
   posterImg String? @unique
   title String? @unique
   description String?
+  descriptionDetail String?
   picture String
   categories Category[]
 }
